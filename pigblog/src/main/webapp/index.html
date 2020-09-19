@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-sclae=1.0">
+    <title>猪网</title>
+    <base href="http://localhost:8080/web_Maven/">
+    <link rel="shortcut icon" href="http://cxycyq.gitee.io/my-blgo/images/1.png" type="image/x-icon">
+    <link rel="stylesheet" href="http://cxycyq.gitee.io/my-blgo/css/index/indexstyle.css">
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container_top">
+    <ul><a href=""></a>
+        <li><a href="#">博客</a></li>
+    </ul>
+</div>
+<br>
+<div class="container">
+    <div class="dropdown right_btn">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+            设置
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="pages/login/login.html">登录</a>
+            <a class="dropdown-item" href="pages/regist/regist.html">注册</a>
+            <a class="dropdown-item" href="#">关于</a>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+<script>
+    L2Dwidget.init({
+        "model": {
+            //jsonpath控制显示那个小萝莉模型，下面这个就是我觉得最可爱的小萝莉模型
+            jsonPath: "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",
+            "scale": 1
+        },
+        "display": {
+            "position": "left", //看板娘的表现位置
+            "width": 100,  //小萝莉的宽度
+            "height": 200, //小萝莉的高度
+            "hOffset": 0,
+            "vOffset": -20
+        },
+        "mobile": {
+            "show": true,
+            "scale": 0.5
+        },
+        "react": {
+            "opacityDefault": 0.9,
+            "opacityOnHover": 0.2
+        }
+    });
+</script>
+</html>

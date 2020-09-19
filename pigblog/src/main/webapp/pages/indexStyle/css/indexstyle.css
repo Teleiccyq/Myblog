@@ -1,0 +1,431 @@
+html{
+    height: 100%;
+}
+body{
+    background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 400px 0;
+    background-size:contain;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    /*position: fixed;*/
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font:normal 100% Arial,sans-serif;
+    z-index:-100;
+    overflow-y:scroll;
+}
+a:link{text-decoration: none; color:palevioletred}
+a:visited{text-decoration: none;color: palevioletred }
+a:hover{text-decoration: none; color: #48abea}
+a:active{text-decoration: none; color: brown}
+.container_top{
+    float: left;
+    margin-left: 40px;
+}
+.container_top ul{
+    text-decoration: none;
+    line-height: 10px;
+    letter-spacing: 40px;
+    margin-top: 10px;
+}
+.container_top li{
+    text-decoration: none;
+    display: inline;
+    letter-spacing: normal;
+    font-size: 18px;
+}
+.right_btn{
+    float: right;
+    margin-top: -20px;
+    margin-right: -120px;
+}
+.search_btn{
+    width: 25%;
+    height: 40px;
+    margin-top: 150px;
+    margin-left: -120px;
+    outline-style: none;
+    border: 2px solid #4b0a82;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: "Microsoft soft";
+}
+input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+.btn {
+    background: #ec4c7c;
+    background-image: -webkit-linear-gradient(top, #ec4c7c, #e06187);
+    background-image: -moz-linear-gradient(top, #ec4c7c, #e06187);
+    background-image: -ms-linear-gradient(top, #ec4c7c, #e06187);
+    background-image: -o-linear-gradient(top, #ec4c7c, #e06187);
+    background-image: linear-gradient(to bottom, #ec4c7c, #e06187);
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #b81fb8;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    /*width: 50px;*/
+}
+
+.btn:hover {
+    background: #ab4eab;
+    background-image: -webkit-linear-gradient(top, #ab4eab, #ba5db7);
+    background-image: -moz-linear-gradient(top, #ab4eab, #ba5db7);
+    background-image: -ms-linear-gradient(top, #ab4eab, #ba5db7);
+    background-image: -o-linear-gradient(top, #ab4eab, #ba5db7);
+    background-image: linear-gradient(to bottom, #ab4eab, #ba5db7);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1600px) {
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 350px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: -120px;
+    }
+}
+@media screen and (max-width: 1500px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 350px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: -60px;
+    }
+}
+@media screen and (max-width: 1400px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 300px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: -10px;
+    }
+}
+@media screen and (max-width: 1300px) and (max-height: 900px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 250px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1250px) and (max-height: 850px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 200px 22px ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 1200px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 180px 6px ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 1100px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 280px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 90px;
+    }
+}
+@media screen and (max-width: 1000px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 290px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 130px;
+    }
+}
+@media screen and (max-width: 900px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 280px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 170px;
+    }
+}
+@media screen and (max-width: 800px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 270px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 210px;
+    }
+}
+@media screen and (max-width: 700px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 260px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 250px;
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 250px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 290px;
+    }
+}
+@media screen and (max-width: 500px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 240px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 330px;
+    }
+}
+@media screen and (max-width: 400px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 230px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 370px;
+    }
+}
+@media screen and (max-width: 300px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 220px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 410px;
+    }
+}
+@media screen and (max-width: 200px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 210px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 450px;
+    }
+}
+@media screen and (max-width: 100px){
+    body{
+        background: url("http://cxycyq.gitee.io/my-blgo/images/pigblog.jpg") no-repeat 200px 0 ;
+        background-size:contain;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+        /*position: fixed;*/
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .right_btn{
+        float: right;
+        margin-top: -20px;
+        margin-right: 500px;
+    }
+}
